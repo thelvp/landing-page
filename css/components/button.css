@@ -1,0 +1,18 @@
+.btn-white {
+  color: rgb(42, 37, 37);
+  background-color: #efeeee;
+  font-weight: lighter;
+  border-radius: 30px;
+  padding: 10px 20px;
+  opacity: 0.8;
+  margin: 30px 0 0 0;
+  display: inline-block;
+  transition: 0.1s ease-in;
+}
+
+.btn-white:hover {
+  opacity: 1;
+  color: black;
+  background: #b6941c;
+  box-shadow: 5px 5px 10px rgb(55, 55, 55);
+}

@@ -1,0 +1,28 @@
+.card {
+  background-color: white;
+  width: 100%;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin: 0 20px;
+  /* font */
+  color: black;
+  opacity: 0.8;
+  transition: 0.3s ease-in;
+}
+
+.card:hover {
+  opacity: 1;
+}
+
+.card img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  padding: 15px;
+}
