@@ -1,16 +1,17 @@
 .card {
   background-color: white;
-  width: 100%;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   margin: 0 20px;
-  /* font */
   color: black;
-  opacity: 0.8;
+  opacity: 1;
   transition: 0.3s ease-in;
+  & p {
+    font-weight: 300;
+  }
 }
 
 .card:hover {
-  opacity: 1;
+  opacity: 0.9;
 }
 
 .card img {
@@ -22,7 +23,8 @@
 .card-text {
   display: flex;
   flex-direction: column;
-  justify-content: baseline;
+  justify-content: start;
   align-items: center;
-  padding: 15px;
+  padding: 5px;
+  margin: 0;
 }
