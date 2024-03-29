@@ -6,7 +6,6 @@
 @import url(components/banner.css);
 @import url(components/container.css);
 @import url(components/button.css);
-@import url(components/cards.css);
 @import url(components/card.css);
 
 /* Utilities */
@@ -28,11 +27,6 @@ a {
 
 .text-center {
   text-align: center;
-}
-
-.body-title {
-  margin-top: 30px;
-  margin-bottom: 10px;
 }
 
 /* Footer / socials list  */
@@ -60,24 +54,4 @@ a {
 
 .fa-brands:hover {
   color: #b6941c;
-}
-
-/* Media Queries */
-
-@media (max-width: 960px) {
-  .container {
-    width: 700px;
-  }
-}
-
-@media (max-width: 720px) {
-  .container {
-    width: 500px;
-  }
-}
-
-@media (max-width: 540px) {
-  .container {
-    width: 300px;
-  }
 }
